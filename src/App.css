@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 193px;
+    gap: 76px;
+    border-bottom: 1px solid #E5E5E5;
+    padding-left: 96px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1{
+    font-size: 48px;
+    font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-icon{
+    color: #5C48D3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-counter{
+    margin-top: 104px;
+    margin-bottom: 166px;
+}
+.add-counter button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 70px;
+    width: 250px;
+    font-size: 32px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: #5C48D3;
 }
 
-.App-link {
-  color: #61dafb;
+.counters-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.counter-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 77px;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 35px;
+}
+
+.counter div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 96px;
+    height: 150px;
+    width: 150px;
+    color: white;
+    background-color: #5C48D3;
+    border-radius: 15px;
+}
+.counter button{
+    border: none;
+    background-color: white;
+    font-size: 96px;
+    font-weight: bold;
+}
+
+.reset-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 150px;
+    font-size: 32px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: #5C48D3;
+
 }
